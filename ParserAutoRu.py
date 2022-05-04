@@ -52,15 +52,10 @@ print(type(USD1))
 vazs = result['offers']
 for vaz in vazs:
     print(f"модель {vaz['vehicle_info']['model_info']['name']} meleage: {vaz ['state']['mileage']}, USD {vaz['price_info']['USD']}")
-    # USD ={vaz['price_info']['USD']}
-    # print(USD)
+   
 
 
-    # if USD < USD1:
-    #
-    #     USD1 = USD
-    # print(USD1)
-    #
+   
 
 
 
