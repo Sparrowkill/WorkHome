@@ -1,6 +1,6 @@
 import requests
 from selenium import webdriver
-import time
+
 import json
 # driver = webdriver.Chrome()
 # driver.get("https:/auto.ru")
@@ -12,7 +12,7 @@ def fetch(url, params):
         return requests.post(url, headers=headers, data=body)
     else:
         return requests.get(url, headers=headers)
-time.sleep(1)
+
 
 x = fetch("https://auto.ru/-/ajax/desktop/listing/", {
   "headers": {
