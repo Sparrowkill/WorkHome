@@ -46,9 +46,6 @@ result = x.json()
 
 # print(result)
 # print (result.keys())
-# print(result['offers'][0]['state']['mileage'])
-USD1 = (result['offers'][0]['state']['mileage'])
-print(type(USD1))
 vazs = result['offers']
 for vaz in vazs:
     print(f"модель {vaz['vehicle_info']['model_info']['name']} meleage: {vaz ['state']['mileage']}, USD {vaz['price_info']['USD']}")
