@@ -4,7 +4,7 @@ from selenium import webdriver
 import json
 # driver = webdriver.Chrome()
 # driver.get("https:/auto.ru")
-
+#HTTP запрос
 def fetch(url, params):
     headers = params ['headers']
     body = params['body']
